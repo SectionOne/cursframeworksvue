@@ -1,7 +1,15 @@
+<!--No oblidm d'executar npm install vue-router@4-->
 <template>
-  <PrincipalPage />
+  <div>
+    <nav>
+
+    </nav>
+    <main class="bg-slate-100" >
+      <RouterView />
+    </main>
+  </div>
+  
 </template>
 <script lang="ts" setup>
-import PrincipalPage from './moduls/landing/pagines/PrincipalPage.vue';
+
 </script>
-<!--No oblidem d'executar npm i tailwind-->
