@@ -7,7 +7,8 @@
 console.log("Executat");
 </script>
 
-<style>
+<!--Emprem scoped perque només s'apliqui a aquest component i template-->
+<style scoped>
 h1 {
   color: red;
 }
