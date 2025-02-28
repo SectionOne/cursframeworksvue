@@ -1,5 +1,5 @@
 <template>
-  <h1>La meva primera app</h1>
+  <h1  class="text-center text-success display-3">La meva primera app</h1>
   <hr>
   <h2>Van entrar</h2><MeuContador :value="5"/>
   <h2>Van sortir</h2><MeuContador :value="10"/>
