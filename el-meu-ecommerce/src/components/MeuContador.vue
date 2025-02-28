@@ -13,7 +13,16 @@
 <!--Definim la configuració de Vue amb un setup-->
 <script lang="ts" setup>
   import {computed, ref} from 'vue';
-  const counter = ref(10);
+  
+  const props = defineProps({
+      value: {
+          type: Number,
+          default: 0
+      },
+  });
+
+  const counter = ref(props.value);
+
 
   const contadorQuadrat = computed(() => counter.value * counter.value);
 </script>

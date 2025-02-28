@@ -1,9 +1,8 @@
 <template>
-  <div>
-    <h1>La meva primera app</h1>
-    <hr>
-    <MeuContador />
-  </div>
+  <h1>La meva primera app</h1>
+  <hr>
+  <MeuContador :value="5"/>
+  <MeuContador :value="10"/>
 </template>
 
 <!--Definim la configuració de Vue amb un setup-->
