@@ -14,15 +14,12 @@
 <script lang="ts" setup>
   import {computed, ref} from 'vue';
   
-  const props = defineProps({
-      value: {
-          type: Number,
-          default: 0
-      },
-  });
+  interface Props {
+      value: number
+  }
+  const props = defineProps<Props>();
 
   const counter = ref(props.value);
-
 
   const contadorQuadrat = computed(() => counter.value * counter.value);
 </script>
