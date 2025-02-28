@@ -4,8 +4,8 @@
       <h3>Quadrat: {{ contadorQuadrat }}</h3>
 
       <div>
-          <button>+1</button>
-          <button>-1</button>
+          <button @click="counter++">+1</button>
+          <button @click="counter--">-1</button>
       </div>
   </section>
 </template>
